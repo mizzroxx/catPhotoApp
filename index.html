@@ -23,7 +23,46 @@
         <li>laser pointers</li>
         <li>lasagna</li>
     </ul>
+
+   <figure><img src="food.jpg" alt="a slice of lasagna on a plate." width="20%"></figure> 
+   <figcaption>Cats <em>love</em> lasagna</figcaption>
+   <h3>Top 3 things cats hate:</h3>
+   <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <figure> <img src="kitten2.jpg" alt="cats looking cute" width="20%"> 
+    <figcaption>Cats <strong>hate</strong> other cats</figcaption>
+</figure>
+</section>
+<section>
+    <h2>Cat Form</h2>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>   
+            <legend> 
+                <h2>Is your cat an indoor or outdoor cat?</h2>
+              </legend>
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+              <legend> 
+                <h2>Is your cat an indoor or outdoor cat?</h2>
+              <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+              </legend>
+        </fieldset>
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" value="loving" name="personality"> <label for="loving" >Loving</label>
+            <input id="lazy" type="checkbox" value="lazy" name="personality"> <label for="lazy" >Lazy</label>
+            <input id="energetic" type="checkbox" value="energetic" name="personality"> <label for="energetic" > Energetic</label>
+          </fieldset>
+      
+        <input required type="text" name="catphotourl" placeholder="cat photo url">
+        <button type="submit">Submit</button>
+    </form>
 </section>
 </main>
+<footer>
+    <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</p></a>
+  </footer>
 </body>
 </html>
